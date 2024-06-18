@@ -1,0 +1,95 @@
+.header{
+    overflow: hidden;
+    padding: 20px 10px;
+    margin-top: -2rem;
+}
+.header__logo{
+    margin: 1rem;
+    height: 4.2rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo h1{
+    border: solid rgb(143, 216, 226);
+    border-radius: 50%;
+    background-color: aqua;
+}
+.header__logo h6{
+    margin-top: 2.2rem;
+    color: rgb(141, 141, 179);
+}
+
+.Nav {
+    margin-top: -2rem;
+
+}
+.Nav a {
+    float: left;
+    margin-right: 7rem;
+    margin-top: -3rem;
+    color: rgb(151, 151, 216);
+    text-align: center;
+    padding: 12px;
+    text-decoration:none;
+    font-size:18px;
+    line-height: 25px;
+    border-radius:4px;
+}
+
+.Nav a.logo {
+    font-size:36px;
+    font-weight: bold;
+    float: left;
+}
+
+.Nav a.active {
+    background-color: rgb(103, 124, 145);
+    color: lightgreen;
+}
+.Nav-right{
+float: right;
+display:block;
+color:blue;
+text-align: center;
+padding:14px 20px;
+text-decoration: none;
+
+.Nav-right {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+}
+
+.Nav-right{
+    float:right;
+}
+
+.Nav-right a:hover{
+  background-color: aqua;
+  color:blue;
+}
+
+.Nav-right a.active{
+  background-color: azure;
+  color:whitesmoke;
+}
+
+@media screen and (max-width:500px){
+    Nav a{
+        float:none;
+        display:block;
+        text-align: left;
+    }
+    .Nav-right{
+        float:none;
+    }
+    .Nav__nav{
+      background-color: aquamarine;
+      float: none;
+    }
+  }
