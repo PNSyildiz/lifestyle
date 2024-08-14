@@ -1,0 +1,49 @@
+.aspects h1{
+    display: flex;
+    margin-left: 25rem;
+    padding: 3.5rem;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content:"";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: inline-flex;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+      display:flexbox;
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+  /* Style the counter cards */
+  
+   
+  .aspects::after{
+    position: center;
+      content: normal;
+      clear: both;
+      display: table;
+  }
